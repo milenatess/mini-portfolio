@@ -1,5 +1,5 @@
 body {
-    background-image: url(../imagens/fundo-site.jpg);
+    background-image: url(../imagens/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,7 +17,7 @@ body {
 .cartao {
     background-color: #070d12;
     width: 370px;
-    border: 2px solid #e126d9;
+    border: 2px solid #f3f3f3;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -31,9 +31,11 @@ body {
 }
 
 .cartao .minhas-informacoes img {
-    width: 150px;
-    height: 150px;
-    border-radius: 150px;
+    width: 130px;
+    height: 130px;
+    border: 2px solid;
+    border-radius: 130px;
+    border-color: #c57788;
 }
 
 .cartao .minhas-informacoes .nome {
@@ -103,7 +105,7 @@ body {
 }
 
 .informacoes-abas .descricao span {
-    color: #e126d9;
+    color: #c57788;
 }
 
 .redes-sociais {
@@ -116,7 +118,7 @@ body {
 }
 
 .redes-sociais li a {
-    background-color: #e126d9;
+    background-color: #c57788;
     width: 250px;
     display: block;
     color: #f3f3f3;
@@ -139,7 +141,7 @@ body {
 }
 
 .redes-sociais .curriculo {
-    background-color: #e126d9;
+    background-color: #c57788;
 }
 
 
